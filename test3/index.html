@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>留言板</h1>
+    <form id="messageForm">
+        <label for="nickname">暱稱:</label>
+        <input type="text" id="nickname" name="nickname" required><br><br>
+        <label for="message">留言:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="提交留言">
+    </form>
+
+    <h2>留言列表:</h2>
+    <div id="messageList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
